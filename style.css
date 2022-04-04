@@ -1,5 +1,32 @@
-header,
-.top-container {
-  background-color: #1f2937;
+header {
+  display: flex;
   color: white;
+  background-color: #1f2937;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 200px;
+  align-items: center;
+}
+
+header div {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+header a {
+  font-size: 18px;
+  color: #e5e7eb;
+  padding-left: 16px;
+}
+
+header ul {
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
 }
