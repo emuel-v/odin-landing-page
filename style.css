@@ -1,10 +1,13 @@
+.top-container {
+  background-color: #1f2937;
+  color: white;
+  padding: 0 200px;
+}
+
 header {
   display: flex;
-  color: white;
-  background-color: #1f2937;
   justify-content: space-between;
-  margin: 0;
-  padding: 0 200px;
+  margin-bottom: 50px;
   align-items: center;
 }
 
@@ -23,6 +26,29 @@ header ul {
   display: flex;
 }
 
+.heading-container {
+  display: flex;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.heading div {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.heading button {
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #3882f6;
+  color: white;
+  border: none;
+}
 ul {
   list-style-type: none;
 }
