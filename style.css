@@ -7,7 +7,6 @@
 header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 50px;
   align-items: center;
 }
 
@@ -28,12 +27,15 @@ header ul {
 
 .heading-container {
   display: flex;
+  justify-content: space-between;
+  padding: 100px 0;
+  margin-bottom: 50px;
 }
 
 .heading {
   display: flex;
   flex-direction: column;
-  margin-bottom: 50px;
+  margin-right: 16px;
 }
 
 .heading div {
@@ -49,6 +51,17 @@ header ul {
   color: white;
   border: none;
 }
+
+.heading-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #6d747d;
+  padding: 30px;
+  max-width: 300px;
+  max-height: 95px;
+}
+
 ul {
   list-style-type: none;
 }
