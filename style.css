@@ -36,6 +36,7 @@ header ul {
   display: flex;
   flex-direction: column;
   margin-right: 16px;
+  width: 45%;
 }
 
 .heading div {
@@ -58,8 +59,7 @@ header ul {
   align-items: center;
   background-color: #6d747d;
   padding: 30px;
-  max-width: 300px;
-  max-height: 95px;
+  width: 35%;
 }
 
 ul {
