@@ -40,7 +40,7 @@ header ul {
 .heading-container {
   display: flex;
   padding: 100px 0;
-  justify-content: space-between;
+  gap: 42px;
 }
 
 .heading-container h1 {
@@ -54,23 +54,24 @@ header ul {
   font-size: 18px;
 }
 
-.heading {
-}
-
 .heading p {
   margin: 8px 0;  
   font-size: 18px;
   color:  #e5e7eb;
+  margin: 0;
+
 }
 
 .heading button {
-  height: 32px;
-  width: 116px;
+  height: 36px;
+  width: 132px;
   border-radius: 5px;
   background-color: #3882f6;
   color: white;
   border: none;
-  font-weight:bold;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 16px;
 }
 
 .hero-image {
@@ -79,6 +80,7 @@ header ul {
   align-items: center;
   background-color: #6d747d;
   padding: 120px;
+  min-width: 400px;
 }
 
 .info-container {
@@ -86,7 +88,7 @@ header ul {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 200px;
+  padding: 0 500px;
   margin-bottom: 80px;
 }
 
@@ -113,7 +115,6 @@ header ul {
 
 .information-card p {
   margin-top: 8px;
-  font-weight: 100;
 }
 
 .info-image {
@@ -126,4 +127,22 @@ header ul {
 
 .testimonial-container {
   background-color: #E5E7EB;
+  height: 250px;
+  padding: 100px 500px;
+}
+
+.testimonial-container p {
+  display: flex;
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  font-weight: 300;
+  margin: 16px 0;
+}
+
+.testimonial-container h5 {
+  font-size: 36px;
+  text-align: right;
+  margin: 0;
+  font-size: 32px;
 }
