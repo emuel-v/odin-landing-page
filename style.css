@@ -55,11 +55,10 @@ header ul {
 }
 
 .heading p {
-  margin: 8px 0;  
+  margin: 8px 0;
   font-size: 18px;
-  color:  #e5e7eb;
+  color: #e5e7eb;
   margin: 0;
-
 }
 
 .heading button {
@@ -102,7 +101,7 @@ header ul {
 .card-container {
   display: flex;
   text-align: center;
-  gap: 50px;;
+  gap: 50px;
   justify-content: center;
 }
 
@@ -122,11 +121,10 @@ header ul {
   height: 170px;
   border: 3px solid #3882f6;
   border-radius: 12px;
-  
 }
 
 .testimonial-container {
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
   height: 250px;
   padding: 100px 500px;
 }
@@ -145,6 +143,38 @@ header ul {
   text-align: right;
   margin: 0;
   font-size: 32px;
+}
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  padding: 90px 15%;
+}
+
+.cta-elements {
+  display: flex;
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 8px;
+  padding: 42px 116px;
+  justify-content: space-between;
+}
+
+.cta-text>*{
+  margin: 3px 0;
+}
+
+.cta-container button {
+  height: 36px;
+  width: 132px;
+  border-radius: 5px;
+  background-color: #3882f6;
+  border: 2px solid white;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 16px;
 }
 
 footer {
