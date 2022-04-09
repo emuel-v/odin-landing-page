@@ -146,3 +146,12 @@ header ul {
   margin: 0;
   font-size: 32px;
 }
+
+footer {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
+}
